@@ -58,7 +58,8 @@ def main():
       users_list.append(user_tmp)
  
     # yaml 出力データの整形
-    out_data = {'hostname': hostname.value,
+    out_data = {
+                'hostname': hostname.value,
                 'ip': ip.value,
                 'cider': cider.value,
                 'gateway': gateway.value,
