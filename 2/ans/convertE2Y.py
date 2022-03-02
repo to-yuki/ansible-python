@@ -40,7 +40,6 @@ def main():
     cider = sheet["C8"]
     gateway = sheet["C9"]
     dns = sheet["C10"]
-    packages = list()
   
     # インストールパッケージリストの取得
     packages = getList(sheet,row_no=15,col_no=2,max_row_no=27) 
